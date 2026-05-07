@@ -11,6 +11,7 @@ app.use(
     origin: [
   "http://localhost:5173",
   "https://devlive-frontend.vercel.app"
+  
 ],
     credentials: true,
   })
