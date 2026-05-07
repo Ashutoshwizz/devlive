@@ -49,9 +49,11 @@ authRouter.post("/signup", async (req, res) => {
   sameSite: "none",
   path: "/",
 });
-    res
-      .status(200)
-      .json({ message: "User added successfully", data: savedUser });
+    res.status(200).json({
+  message: "User added successfully",
+  data: savedUser,
+  token,
+});
   } catch (err) {
     res.status(400).send("ERROR:" + err.message);
   }
@@ -77,7 +79,10 @@ authRouter.post("/login", async (req, res) => {
   sameSite: "none",
   path: "/",
 });
-      res.status(200).json({ user });
+      res.status(200).json({
+  user,
+  token,
+});
     } else {
       throw new Error("Invalid Vredentials");
     }
