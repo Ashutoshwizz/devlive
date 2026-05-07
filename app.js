@@ -8,7 +8,10 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin:true,
+    origin: [
+  "http://localhost:5173",
+  "https://devlive-frontend.vercel.app"
+],
     credentials: true,
   })
 );
