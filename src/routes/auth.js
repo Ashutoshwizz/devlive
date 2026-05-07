@@ -47,6 +47,7 @@ authRouter.post("/signup", async (req, res) => {
   httpOnly: true,
   secure: true,
   sameSite: "none",
+  domain: ".vercel.app",
 });
     res
       .status(200)
@@ -74,6 +75,7 @@ authRouter.post("/login", async (req, res) => {
   httpOnly: true,
   secure: true,
   sameSite: "none",
+  domain: ".vercel.app",
 });
       res.status(200).json({ user });
     } else {
