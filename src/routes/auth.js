@@ -43,11 +43,10 @@ authRouter.post("/signup", async (req, res) => {
     const savedUser = await user.save();
     const token = await savedUser.getjwt();
     res.cookie("token", token, {
-  expires: new Date(Date.now() + 8 * 3600000),
   httpOnly: true,
   secure: true,
   sameSite: "none",
-  path: "/",
+  maxAge: 8 * 60 * 60 * 1000,
 });
     res.status(200).json({
   message: "User added successfully",
@@ -73,11 +72,10 @@ authRouter.post("/login", async (req, res) => {
     if (isValidPassword) {
       const token = await user.getjwt();
      res.cookie("token", token, {
-  expires: new Date(Date.now() + 8 * 3600000),
   httpOnly: true,
   secure: true,
   sameSite: "none",
-  path: "/",
+  maxAge: 8 * 60 * 60 * 1000,
 });
       res.status(200).json({
   user,
