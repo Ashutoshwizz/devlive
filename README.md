@@ -167,12 +167,3 @@ Since the project is now fully functional, improvements are still welcome!
 
 ## 📜 License
 This project is open-source and available under the **MIT License**.
-
----
-
-<div align="center">
-er&logoColor=white)](https://x.com/akshad_999)
-
-</div>
-
-
