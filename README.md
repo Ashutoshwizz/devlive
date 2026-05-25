@@ -8,12 +8,6 @@ This repository contains the **backend** of DevTinder, built with **Node.js, Exp
 > ⚠️ **Note:** The backend is **fully functional** and ready for further scaling and optimizations.
 
 ---
-
-## 📖 My Node.js Learning Repository
-I learned and maintained all my Node.js knowledge in one place:
-[**Namsate Nodejs**](https://github.com/akshadjaiswal/Namaste-Nodejs)
-
-
 ## 🛠️ Tech Stack
 - **Backend Framework**: [Node.js](https://nodejs.org/en) + [Express.js](https://expressjs.com/)
 - **Database**: [MongoDB](https://www.mongodb.com/) + [Mongoose](https://mongoosejs.com/)
@@ -142,7 +136,7 @@ Server runs at: `http://localhost:3000/`
 
 ## 🔗 Frontend Integration
 The frontend for DevTinder is available at:
-🔗 **[DevTinder Frontend Repository](https://github.com/akshadjaiswal/devTinder-frontend)**
+🔗 **[DevTinder Frontend Repository]https://devlive-frontend.vercel.app/login**
 
 Make sure the backend is running before accessing the frontend.
 
@@ -177,12 +171,7 @@ This project is open-source and available under the **MIT License**.
 ---
 
 <div align="center">
-
-**Made with ❤️ by Akshad Jaiswal**
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/akshadjaiswal)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/akshadsantoshjaiswal)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/akshad_999)
+er&logoColor=white)](https://x.com/akshad_999)
 
 </div>
 
